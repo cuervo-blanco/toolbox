@@ -11,24 +11,24 @@ Feel free to chime in!
 ### Scripts
 
 #### mf
-Usage:
-mf -f file -d destination -[c]
+    Usage:
+    mf -f file -d destination -[c]
 
-A parallel version of mv that simply moves any number of inodes to a single
-destination directory.
+    A parallel version of mv that simply moves any number of inodes to a single
+    destination directory.
 
--f --file
-  You can pile your inodes.
-  mf --file [i-node] [(user-readable, i-node)] .. N - 1 
-  where N is the total number of piled files
-  mf -f [file] ./directory-1 ./directory-2/[file] .. N-1 -d [destination-filepath]
+    -f --file
+      You can pile your inodes.
+      mf --file [i-node] [(user-readable, i-node)] .. N - 1
+      where N is the total number of piled files
+      mf -f [file] ./directory-1 ./directory-2/[file] .. N-1 -d [destination-filepath]
 
--d --directory
-  Determines the destination filepath
-  mf -f [file] .. N-1  --directory ./my-directory
+    -d --directory
+      Determines the destination filepath
+      mf -f [file] .. N-1  --directory ./my-directory
 
--c --copy [optional]
-  Copy the files
-  mf -f [file] .. N-1 -d [destination] --copy
+    -c --copy [optional]
+      Copy the files
+      mf -f [file] .. N-1 -d [destination] --copy
 
-Still in trial-error mode, use at your discretion.
+    Still in trial-error mode, use at your discretion.
