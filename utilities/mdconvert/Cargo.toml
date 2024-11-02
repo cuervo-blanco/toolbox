@@ -1,0 +1,7 @@
+[package]
+name = "mdconvert"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pandoc="0.8.11"
