@@ -8,9 +8,14 @@ Feel free to chime in!
 
 ## Index
     Utilities:
-        $: mf - Parallel file mover
-        $: mdconverter - Markdown to document converter
-        $: rename - Batch rename files
+        General:
+            $: mf - Parallel file mover
+            $: mdconverter - Markdown to document converter
+            $: rename - Batch rename files
+        Security:
+        Media:
+            $: mediaconv - Media Converter
+            $:
 
 
 ### Utilities
