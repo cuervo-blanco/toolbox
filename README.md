@@ -4,7 +4,7 @@ My own personal utitlies toolbox for file system management, system checks and
 automation.
 
 This is still in work mode, this is a repository for keeping my tools.
-Feel free to chime in!
+Feel free to chime in, I <3 Open Source
 
 ## Index
     Utilities:
