@@ -1,0 +1,8 @@
+- Image Resizer: Quickly resizes or converts images for various documentation
+needs.
+- Graph Generator: Uses matplotlib or similar to generate graphs from data.
+- Basic Screenshot Tool: Takes and saves screenshots with options for
+annotations
+- File Metadata Viewer: Shows image metadata (e.g, EXIF for photos)
+- GIF Maker: Combines images or video clips into a GIF for quick previews
+or documentation.

@@ -1,0 +1,5 @@
+- Password Strength Checker: Checks password strength or detects duplicates.
+- Log Watcher: Scans logs for suspicious activities.
+- Encrypted Backup Tool: Encrypts and backs up sensitive files.
+- Basic Intrusion Detection: Flags unusual or unauthorized activity.
+- File Hash Vertifier: Checks file integrity using hash comparison.

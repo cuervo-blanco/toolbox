@@ -1,0 +1,8 @@
+- Task timer: Times tasks to help you or clients understand time spent on
+projects.
+- Quick Note: Lightweight note-taker that saves notes on the go, userful for
+job sites.
+- Batch Renamer
+- File Splitter/Joiner: Splits large files into smaller chunks or rejoins them.
+- File Comparer: Compares contents of files (e.g. config files) to highlight
+changes.

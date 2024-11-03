@@ -1,0 +1,5 @@
+- System Cleaner: Clears caches, temporary files, and junk.
+- Resource Monitor: Logs CPU/RAM usage, useful for diagnostics.
+- Auto-Updater: Schedules and automates system updates.
+- Battery Health Checker: Monitors battery health stats (useful for laptops
+/tablets)

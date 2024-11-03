@@ -1,0 +1,10 @@
+- Backup Automator: Schedules automatic backups of specified directories or
+media.
+- Task Scheduler: Automates routine tasks like cleanup, software updates,
+or archiving.
+- Batch File Organizer: Automatically sorts files into folders based on type,
+date, or custom rules
+- Auto-Sync: Syncs specific files or folders scross devices or to a cloud
+location
+- Auto-Linter: Runs linters on scripts (e.g., Python, Bash) and returns quick
+fixes or warnings.

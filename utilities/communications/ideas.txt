@@ -1,0 +1,9 @@
+- Quick email generator: Generates standard email templates for common reports
+or updates
+- Local Messenger: Sends messages to users on the same network, useful for
+local collaboration (tcp_chat)
+- File Transfer Script: Simplifies file transfer via SSH/SFTP for remote work
+- Report Formatter: Converts raw data into client-friendly summaries (e.g
+Markdown to PDF)
+- Notification System: Notifies you or clients via email/SMS about system
+events or issues.

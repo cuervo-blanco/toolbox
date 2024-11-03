@@ -1,0 +1,12 @@
+- Automated Indexer: Creates an index or table of contents for large
+documentation sets.
+- Quick Documentation Generator: Creates templates for project documentation.
+- Image Annotator: Adds labels or comments to screenshots for documentation
+purposes.
+- Changelog Generator: Tracks changes in scripts and auto-generates a changelog.
+- Batch Media Converter
+- Media Organizer: Sorts media by date, type or metadata.
+- Transcript Generator: Automates transcription from audio (useful for
+interviews)
+- Watermarker: Adds watermarker to images or videos.
+- Basic Video Cutter: Quickly trims or segments videos for quick edits.

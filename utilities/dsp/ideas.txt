@@ -1,0 +1,7 @@
+- Simple Audio Filter: A basic EQ or high-pass filter to process audio files
+quickly.
+- Audio/Video Metadata Analyzer: Pulls detailed technical metadata from media
+files.
+- Signal Visualizer: Graphs audio waveforms or other signal data for analysis.
+- FFT Tool: Calculates and visualizes frequency components of an audio signal.
+- Audio/Video Normalizer: Ensures consistent volume or brightness across files.

@@ -1,0 +1,7 @@
+- Ip Scanner: Scans a network for active devices and details (optional)
+- Port Checker: Checks open/closed status of specified ports
+- Quick SSH Connector: Shortcuts for common SSH connnections
+- Bandwidth Monitor: Logs real-time bandwidth usage on the network
+- Firewall Rule Manager: Quickly add or remove firewall rules based on
+templates
+

@@ -1,0 +1,9 @@
+- System Health Monitor: Checks CPU, RAM, and disk usage over time.
+- Network Diagnostic: Pings, traceroutes or checks connection health for
+troubleshooting.
+- Dependency Checker: Checks for missing dependencies in projects or installs
+them automatically
+- Process Inspector: Lists all processes with resource usage stats (like a
+custom htop)
+- Error Log Collector: Aggregates error logs from various sources for easier
+diagnostics.
