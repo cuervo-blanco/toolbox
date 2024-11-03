@@ -78,7 +78,10 @@ fn remove_from_log(file_name: &str) -> io::Result<()> {
 
 fn move_to_collector(file_path: &str) -> io::Result<()> {
     init_collector()?;
-    let file_name = Path::new(file_path)
+    let path = Path::new(file_path);
+
+    let absolute_path = fs::canonicalize(&path)?;
+    let file_name = path
         .file_name()
         .ok_or_else(|| io::Error::new(io::ErrorKind::InvalidInput,
             "Invalid file path"))?;
@@ -94,11 +97,13 @@ fn move_to_collector(file_path: &str) -> io::Result<()> {
         collector_file = collector_path().join(new_file_name);
     }
 
-    if VERBOSE.load(Ordering::SeqCst) {
-        println!("Moving file from {} to {}", file_path, collector_file.display());
-    }
 
     if VERBOSE.load(Ordering::SeqCst) {
+        println!(
+            "Moving file from {} to {}",
+            absolute_path.display(),
+            collector_file.display()
+        );
         let metadata = fs::metadata(file_path)?;
         let file_size = metadata.len();
         let pb = ProgressBar::new(file_size);
@@ -109,7 +114,7 @@ fn move_to_collector(file_path: &str) -> io::Result<()> {
                 .progress_chars("#>-"),
         );
 
-        let mut src = fs::File::open(file_path)?;
+        let mut src = fs::File::open(&absolute_path)?;
         let mut dst = fs::File::create(&collector_file)?;
 
         let mut buffer = [0u8; 8192];
@@ -122,13 +127,15 @@ fn move_to_collector(file_path: &str) -> io::Result<()> {
             pb.inc(bytes_read as u64);
         }
         pb.finish_with_message("Move completed");
-        fs::remove_file(file_path)?;
+        fs::remove_file(&absolute_path)?;
     } else {
-        fs::rename(file_path, &collector_file)?;
+        fs::rename(&absolute_path, &collector_file)?;
     }
 
-    log_original_path(&collector_file.file_name()
-        .unwrap().to_string_lossy(), file_path)?;
+    log_original_path(
+        &collector_file.file_name().unwrap().to_string_lossy(),
+        &absolute_path.to_string_lossy(),
+    )?;
     println!("Moved {} to collector as {}",
         file_path, collector_file.display());
     Ok(())
@@ -340,6 +347,7 @@ fn display_help() {
         Usage:\n\
         \t srm [--verbose] <file_path>                   Move a file to the collector.\n\
         \t srm --list                                    Display information about the collector's contents.\n\
+        \t srm --show-path                               Display the path to the collector directory.\n\
         \t srm --unlink [--verbose] <file_name> [...]    Delete specific files from the collector.\n\
         \t srm --unlink-all                              Delete all files from the collector with confirmation.\n\
         \t srm --restore [--verbose] <file_name> [--destination <path>]  Restore a file to its original or specified path.\n\
@@ -352,6 +360,7 @@ fn display_help() {
         Examples:\n\
         \t srm myfile.txt\n\
         \t srm --list\n\
+        \t srm --show-path\n\
         \t srm --unlink myfile.txt anotherfile.txt\n\
         \t srm --unlink-all\n\
         \t srm --restore myfile.txt\n\
@@ -423,6 +432,10 @@ fn main() {
                     eprintln!("Error restoring file {}: {}", file, e);
                 }
             }
+        }
+        Some("--show-path") => {
+            let collector = collector_path();
+            println!("Collector path: {}", collector.display());
         }
         Some(_file_path) => {
             for file in args.iter().skip(1) {
