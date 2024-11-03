@@ -1,4 +1,5 @@
 ```plaintext
+MDCONVERT(1)                      User Manual                      MDCONVERT(1)
 mdconvert - A Minimal Markdown to Document Conversion Tool
 
 USAGE:

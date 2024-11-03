@@ -27,31 +27,37 @@ OPTIONS
        -a, --append STRING
                  Append STRING to filenames.
                  Example: rename -a _backup file1.txt file2.txt
+                 Output: file1_backup.txt file2_backup.txt
 
        -p, --prepend STRING
                  Prepend STRING to filenames.
                  Example: rename -p new_ file1.txt file2.txt
+                 Output: new_file1.txt new_file2.txt
 
        -c, --counter [POSITION] [FORMAT]
                  Add a counter to filenames. Choose POSITION as
                  prefix or suffix, and FORMAT (e.g., -03).
                  Example: rename -c suffix -03 file1.txt file2.txt
+                 Output: file1-001.txt file3-002.txt
 
        -d, --digits DIGITS
-                 Set number of digits for the counter (default is 2).
+                 Set number of digits for the counter (default is 3).
                  Example: rename -c prefix -d 4 file1.txt file2.txt
 
        -u, --separator SEPARATOR
                  Set separator between counter and filename (default: -).
                  Example: rename -c suffix -u "-" file1.txt file2.txt
+                 Output: file1-001.txt file2-002.txt
 
        -r, --replace EXTENSION
                  Change file extensions to EXTENSION.
                  Example: rename -r .md file1.txt file2.txt
+                 Output: file1.md file2.md
 
        -n, --new-name NEW_NAME
                  Rename all files to NEW_NAME with unique counters.
                  Example: rename -n newfile.txt file1.txt file2.txt
+                 Output:
 
        -f, --follow
                  Flag to indicate counter follows format.
