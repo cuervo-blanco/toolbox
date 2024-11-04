@@ -1,0 +1,11 @@
+[package]
+name = "auconv"
+version = "0.1.0"
+edition = "2021"
+authors = ["cuervo-blanco"]
+description = "A command line tool to convert audio files to different formats"
+license = "MIT"
+repository = "https://github.com/cuervo-blanco/utilities"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }

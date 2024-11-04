@@ -1,0 +1,8 @@
+/Users/soyingeniero/Files/toolbox/utilities/media/auconv/target/debug/deps/libsymphonia_codec_adpcm-a2d016ac95951fbe.rmeta: /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/lib.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ima.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ms.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/common.rs
+
+/Users/soyingeniero/Files/toolbox/utilities/media/auconv/target/debug/deps/symphonia_codec_adpcm-a2d016ac95951fbe.d: /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/lib.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ima.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ms.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/common.rs
+
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/lib.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ima.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/codec_ms.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-codec-adpcm-0.5.4/src/common.rs:

@@ -3,5 +3,5 @@
 logs.
 - Network Usage Graph: Generates garphical summaries of bandwidth usage over
 time
-- Disk Uage Visualizer: Presents sapce usage by directory in a grasphical format.
+- Disk Uage Visualizer: Presents space usage by directory in a graphical format.
 - Metadata Extractor: Retrieves metadata (audio, video, image) for reporting.

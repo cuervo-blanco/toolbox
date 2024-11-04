@@ -10,3 +10,4 @@ purposes.
 interviews)
 - Watermarker: Adds watermarker to images or videos.
 - Basic Video Cutter: Quickly trims or segments videos for quick edits.
+- Command Line Player: Playback audio files without leaving the terminal.

@@ -1,0 +1,8 @@
+/Users/soyingeniero/Files/toolbox/utilities/media/auconv/target/debug/deps/libsymphonia_format_riff-65d4d9fbfb953e17.rmeta: /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/lib.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/common.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/mod.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/chunks.rs
+
+/Users/soyingeniero/Files/toolbox/utilities/media/auconv/target/debug/deps/symphonia_format_riff-65d4d9fbfb953e17.d: /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/lib.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/common.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/mod.rs /Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/chunks.rs
+
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/lib.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/common.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/mod.rs:
+/Users/soyingeniero/.cargo/registry/src/index.crates.io-6f17d22bba15001f/symphonia-format-riff-0.5.4/src/wave/chunks.rs:
